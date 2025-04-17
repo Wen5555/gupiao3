@@ -1,0 +1,12 @@
+# 配置示例（可扩展代理IP、数据库连接等）
+data_source:
+  default: "akshare"
+  backup: "sina"
+
+stocks:
+  - "600519"  # 贵州茅台
+  - "000001"  # 平安银行
+
+time_range:
+  start: 2020
+  end: 2023
