@@ -1,12 +1,5 @@
-# 配置示例（可扩展代理IP、数据库连接等）
-data_source:
-  default: "akshare"
-  backup: "sina"
+data_sources:  # 按优先级排序
+  - "akshare"
+  - "tushare"
 
-stocks:
-  - "600519"  # 贵州茅台
-  - "000001"  # 平安银行
-
-time_range:
-  start: 2020
-  end: 2023
+tushare_token: "46acd8cbf7ce718959cc76ca59e034744ee24a25c340ba84ee65b092"  # tushare的token
